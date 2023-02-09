@@ -1,0 +1,43 @@
+  main {
+       background-color: blueviolet;
+       border: 2px solid blue;
+       height: 350px;
+       width: 800px;
+       margin: 30px auto;
+       position: relative;
+  }
+
+  div {
+       background-color: yellow;
+       width: 100px;
+       height: 100px;
+       border-radius: 50px;
+       position: absolute;
+       top: 250px;
+  }
+
+  #a {
+       border-radius: 0 50px 50px 0;
+       width: 50px;
+       height: 100px;
+       left: 0px;
+  }
+
+  #b {
+       left: 150px;
+  }
+
+  #c {
+       left: 350px;
+  }
+
+  #d {
+       left: 550px;
+  }
+
+  #e {
+       border-radius: 50px 0 0 50px;
+       width: 50px;
+       height: 100px;
+       left: 750px;
+  }
